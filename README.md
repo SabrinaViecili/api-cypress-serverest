@@ -18,7 +18,7 @@ Uma vez que todas as dependências já estão listadas no arquivo `package.json`
 
 `npm test` - executa o Cypress em modo headless
 
-`npm cy:open`- executa o modo interativo do Cypress
+`npm run cypress:open`- executa o modo interativo do Cypress
 
 ## Arquitetura
 

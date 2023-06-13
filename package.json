@@ -7,7 +7,7 @@
         "lint": "eslint cypress/**/*.js",
         "lint:fix": "eslint cypress/**/*.js --fix",
         "test": "cypress run",
-        "cy:open": "cypress open",
+        "cypress:open":"cypress open",
         "test:postLogin": "cypress run --spec cypress/e2e/login/postLogin.cy.js",
         "test:deleteProducts": "cypress run --spec cypress/e2e/products/deleteProducts.cy.js",
         "test:getProducts": "cypress run --spec cypress/e2e/products/getProducts.cy.js",
