@@ -1,0 +1,31 @@
+{
+    "name": "serverest-cypress",
+    "version": "1.0.0",
+    "description": "Projeto de testes back-end com Cypress e ServeRest API",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint cypress/**/*.js",
+        "lint:fix": "eslint cypress/**/*.js --fix",
+        "test": "cypress run",
+        "cy:open": "cypress open",
+        "test:postLogin": "cypress run --spec cypress/e2e/login/postLogin.cy.js",
+        "test:deleteProducts": "cypress run --spec cypress/e2e/products/deleteProducts.cy.js",
+        "test:getProducts": "cypress run --spec cypress/e2e/products/getProducts.cy.js",
+        "test:postProducts": "cypress run --spec cypress/e2e/products/postProducts.cy.js",
+        "test:putProducts": "cypress run --spec cypress/e2e/products/putProducts.cy.js",
+        "test:deleteUsers": "cypress run --spec cypress/e2e/users/deleteUsers.cy.js",
+        "test:getUsers": "cypress run --spec cypress/e2e/users/getUsers.cy.js",
+        "test:postUsers": "cypress run --spec cypress/e2e/users/postUsers.cy.js",
+        "test:putUsers": "cypress run --spec cypress/e2e/users/putUsers.cy.js"
+    },
+    "author": "Sabrina Viecili",
+    "license": "MIT",
+    "devDependencies": {
+        "@bahmutov/cy-api": "^2.2.1",
+        "cypress": "^10.10.0",
+        "eslint": "^7.32.0",
+        "eslint-plugin-cypress": "^2.11.3",
+        "faker": "^5.5.3",
+        "joi": "^17.4.2"
+    }
+}
